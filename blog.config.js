@@ -309,25 +309,18 @@ const BLOG = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
-      name: '风を共に舞う気持ち',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731419.mp3',
-      cover:
-        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
-    },
-    {
-      name: '王都グランセル',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
-      cover:
-        'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
-    },
-    {
       name: '浓缩蓝鲸',
       artist: 'Falcom Sound Team jdk',
       url: 'https://music.163.com/song/media/outer/url?id=1864619253.mp3',
       cover:
         'https://p1.music.126.net/5BODaqPmyNJYQaBIoV82HQ==/109951166783174480.jpg'
+    },
+    {
+      name: '花落时相遇',
+      artist: 'Falcom Sound Team jdk',
+      url: 'https://cf-media.sndcdn.com/5BNtb1uKBvgj.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vNUJOdGIxdUtCdmdqLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzIyMzYzNjM0fX19XX0_&Signature=Fvg9BbC--YfhPu~HIYpYzGROEpB8gXEOLGIBGPGeNWDzd47KsF8jr2XbcNgdTvOezruvYE1dsyunM9aLUhDR-1wy8EoIbDYPb9IoXTEftTgFCIfrk3KXD3MttDOAYKU8ep4vJQiHoMbS4PrJ4l-6Pljse-7MLmmWjegpoGsEtOVac1Xr-rAYeDx4M6lYPmFcuosZWoNl6gvqCS-rppuGHkYiSLFUGK6Yq4gKB95Nvr54P9i7Mpm4Rj0se8k36MIsCG6~YU03Ol0vf2F7MJ4si8BnTuwgzdM7bToTp3Y~GJiaJE5o0XjDw2ggcO9zBn780rpjY20ZkvL5Si2jf81f2w__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ',
+      cover:
+        'https://p2.music.126.net/cpppq3vKqjQ5YwzNYM_C7Q==/109951168244956668.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
